@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CoralBoss")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0af2a591e0adbbbc7a63502b66f6cfa8b81e4bf8")]
 [assembly: System.Reflection.AssemblyProductAttribute("CoralBoss")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CoralBoss")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
