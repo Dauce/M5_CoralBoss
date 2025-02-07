@@ -1,0 +1,38 @@
+/* Apply gradient only to the homepage */
+.homepage {
+  min-height: 100vh; /* Ensure full height coverage */
+  padding: 50px 20px; /* Keep spacing without affecting layout */
+}
+
+/* Ensure content is inside a container */
+.homepage .text-center {
+  padding: 20px; /* Prevents content from sticking to edges */
+  border-radius: 10px; /* Adds some styling for a cleaner look */
+}
+
+/* Adjust body to make sure background fills the page */
+body {
+  margin-bottom: 60px;
+  background: linear-gradient(to bottom, #a1c4fd, #2e86de); /* Apply global gradient */
+  background-attachment: fixed; /* Prevents scrolling issues */
+}
+
+/* Keep your existing image settings */
+.custom-img {
+  width: 540px;
+  height: 500px;
+  object-fit: cover; /* Ensures images scale properly */
+  border-radius: 8px; /* Optional: Adds smooth rounded corners */
+  box-shadow: 5px 5px 15px rgba(0, 0, 0, 0.2); /* Adds slight shadow */
+}
+
+.homepage p {
+  font-size: 25px; /* Bigger text for homepage */
+  font-weight: 500; /* Normal weight for readability */
+  line-height: 1.8; /* Adds spacing for easier reading */
+}
+
+.footer {
+  color: black !important; /* Ensures text appears black */
+}
+

@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewData["Title"] = "Tutoring";
+}
+<h1>Tutoring Cost Calculator</h1>
+
+<div class="calculator-container">
+    <form id="tutoringForm">
+        <!-- Input the number of hours -->
+        <label for="hours">Number of Hours:</label>
+        <input type="number" id="hours" name="hours" min="1" required/>
+        
+        <!-- Fixed rate per hour -->
+        <label for="rate">Rate Per Hour ($):</label>
+        <input type="text" id="rate" value="50.00" readonly/>
+        
+        <!-- Calculate button -->
+        <button type="button" id="calculateBtn">Calculate Total</button>
+        
+        <!-- Output for total cost -->
+        <label for="total">Total Cost ($):</label>
+        <input type="text" id="total" readonly/>
+    </form>
+
+</div>
+
+<!-- Ensure jQuery is included before your script -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<!-- Link to the JavaScript file -->
+<script src="~/js/calculator.js"></script>
